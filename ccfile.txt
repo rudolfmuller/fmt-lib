@@ -1,19 +1,19 @@
 # @library
 library(
-	library-name=fmt
-	library-description="Formatting library for C++"
-	library-version=10.1.0
+	library.name=fmt
+	library.description="Formatting library for C++"
+	library.version=10.1.0
 
-	library-authors=("Victor Zverovich")
-	library-license="MIT"
-	library-websites=("https://fmt.dev/")
+	library.authors=("Victor Zverovich")
+	library.license="MIT"
+	library.websites=("https://fmt.dev/")
 )
 
 build(
-	build-mode=static
-	build-compiler=g++
-	build-cflags=("-std=c++17")
-	build-dependencies=()
-	build-include-directory="include/fmt"
-	build-source-files=("src/format.cc", "src/os.cc", "src/fmt.cc")
+	build.mode=static
+	build.compiler=g++
+	build.cflags=("-std=c++17")
+	build.dependencies=()
+	build.include-directory="include/fmt"
+	build.source-files=("src/format.cc", "src/os.cc", "src/fmt.cc")
 )

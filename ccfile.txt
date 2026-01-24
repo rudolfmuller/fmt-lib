@@ -1,3 +1,4 @@
+# @library
 library(
 	library-name=fmt
 	library-description="Formatting library for C++"
